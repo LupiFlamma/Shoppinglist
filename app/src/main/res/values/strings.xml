@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">ShoppingList</string>
     <string name="list_button">Neste aktivitet</string>
+    <string name="add_text">Legg til vare</string>
+    <string name="hint_text">Skriv inn vare:</string>
+    <string name="add_item">Legg til</string>
+    <string name="switch_6">Frukt</string>
+    <string name="switch_1">1</string>
+    <string name="switch_2">2</string>
+    <string name="switch_3">3</string>
+    <string name="switch_4">4</string>
+    <string name="switch_5">5</string>
 </resources>

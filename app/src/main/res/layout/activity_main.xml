@@ -1,14 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="@dimen/layout_margin"
+    android:paddingStart="@dimen/medium_padding"
+    android:paddingEnd="@dimen/medium_padding"
     tools:context=".MainActivity">
 
-
-    <Button
+    <EditText
+        android:id="@+id/Search_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/list_button" />
-</LinearLayout>
+        android:layout_centerHorizontal="true"
+        android:hint="@string/hint_text"
+        android:inputType="text"
+        android:padding="@dimen/big_padding"
+        android:textAlignment="center"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Search_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/add_item" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_button"
+        android:paddingTop="@dimen/medium_padding"
+        android:text="@string/switch_1"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/add_button"
+        android:paddingTop="@dimen/medium_padding"
+        android:text="@string/switch_2"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_button"
+        android:paddingTop="@dimen/medium_padding"
+        android:layout_alignParentEnd="true"
+        android:text="@string/switch_3"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:paddingTop="@dimen/medium_padding"
+        android:text="@string/switch_4"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/switch1"
+        android:paddingTop="@dimen/medium_padding"
+        android:text="@string/switch_5"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch1"
+        android:paddingTop="@dimen/medium_padding"
+        android:layout_alignParentEnd="true"
+        android:text="@string/switch_6"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+</RelativeLayout>
