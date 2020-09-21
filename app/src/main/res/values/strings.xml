@@ -2,9 +2,10 @@
     <string name="app_name">ShoppingList</string>
     <string name="list_button">Neste aktivitet</string>
     <string name="add_text">Legg til vare</string>
-    <string name="hint_text">Skriv inn vare:</string>
+    <string name="hint_vare">vare:</string>
     <string name="add_item">Legg til</string>
-
+    <string name="add_list">Opprett liste</string>
+    <string name="hint_list">Listenavn:</string>
     <string name="next_button">Neste</string>
     <string name="new_list">Ny liste</string>
     <string name="my_lists">Mine lister</string>
