@@ -28,14 +28,15 @@
         android:textColor="@android:color/white" />
 
     <EditText
-    android:id="@+id/Search_text"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerInParent="true"
-    android:hint="@string/hint_list"
-    android:inputType="text"
-    android:padding="@dimen/big_padding"
-    android:textAlignment="center" />
+        android:id="@+id/Search_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="@string/hint_list"
+        android:inputType="text"
+        android:padding="@dimen/big_padding"
+        android:textAlignment="center"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/create_button"
