@@ -5,12 +5,7 @@
     <string name="hint_text">Skriv inn vare:</string>
     <string name="add_item">Legg til</string>
 
-    <string name="switch_1">fersk    </string>
-    <string name="switch_2">Aol og tob</string>
-    <string name="switch_3">Tørr     </string>
-    <string name="switch_4">Frossen  </string>
-    <string name="switch_5">Meieri   </string>
-    <string name="switch_6">Fruk     </string>
-    <string name="picture1">ADD</string>
-    <string name="next_text">Neste</string>
+    <string name="next_button">Neste</string>
+    <string name="new_list">Ny liste</string>
+    <string name="my_lists">Mine lister</string>
 </resources>
