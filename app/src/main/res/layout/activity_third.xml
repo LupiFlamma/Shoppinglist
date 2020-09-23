@@ -1,76 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/shoppingcard_background">>
+    android:background="@drawable/cleanblue"
+    tools:context=".ThirdActivity">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_bottom3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="4">
+        android:layout_marginBottom="@dimen/small_padding"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1" >
+
+        <ImageButton
+            android:id="@+id/add_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_padding"
+            android:layout_weight="1"
+            android:background="@color/test_farge"
+            android:contentDescription="@string/share_text"
+            android:padding="@dimen/small_padding"
+            android:src="@drawable/ic_baseline_share_white" />
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
 
         <ImageButton
             android:id="@+id/home_button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@android:color/white"
             android:layout_marginTop="@dimen/small_padding"
-            android:padding="@dimen/small_padding"
+            android:layout_weight="1"
+            android:background="@color/test_farge"
             android:contentDescription="@string/share_text"
-            android:src="@drawable/ic_baseline_home_24" />
+            android:padding="@dimen/small_padding"
+            android:src="@drawable/ic_baseline_home_white" />
 
         <ImageButton
             android:id="@+id/new_list_button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@android:color/white"
             android:layout_marginTop="@dimen/small_padding"
-            android:padding="@dimen/small_padding"
+            android:layout_weight="1"
+            android:background="@color/test_farge"
             android:contentDescription="@string/new_list"
-            android:src="@drawable/ic_new" />
+            android:padding="@dimen/small_padding"
+            android:src="@drawable/ic_baseline1_white" />
 
         <ImageButton
             android:id="@+id/list_button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@android:color/white"
             android:layout_marginTop="@dimen/small_padding"
-            android:padding="@dimen/small_padding"
+            android:layout_weight="1"
+            android:background="@color/test_farge"
             android:contentDescription="@string/list_text"
-            android:src="@drawable/ic_list" />
-
-        <ImageButton
-            android:id="@+id/share_button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@android:color/white"
-            android:layout_marginTop="@dimen/small_padding"
             android:padding="@dimen/small_padding"
-            android:contentDescription="@string/share_text"
-            android:src="@drawable/ic_share" />
+            android:src="@drawable/ic_baseline__white" />
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Third Activity"
-        android:layout_centerInParent="true" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar3"
+        android:layout_margin="@dimen/layout_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tacofredag"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_padding"
+                android:text="@string/frukt_og_gront"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_padding"
+                android:text="@string/frukt_example"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_padding"
+                android:text="@string/Kjølevarer"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_padding"
+                android:text="@string/Kjølevarer_example"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_padding"
+                android:text="@string/krydder"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_padding"
+                android:text="@string/krydder_example"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_padding"
+                android:text="@string/meieriproduker"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/medium_padding"
+                android:text="@string/meieriprodukter_example"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bakevarer"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="@string/ferskvarer"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="@string/alkohol_og_tobakk"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="@string/annet"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
 
 
 </RelativeLayout>

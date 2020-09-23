@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="4">
+        android:weightSum="3">
 
 
         <ImageButton
@@ -27,44 +27,34 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@android:color/white"
+            android:background="@color/test_farge"
             android:layout_marginTop="@dimen/small_padding"
             android:padding="@dimen/small_padding"
             android:contentDescription="@string/share_text"
-            android:src="@drawable/ic_baseline_home_24" />
+            android:src="@drawable/ic_baseline_home_white" />
 
         <ImageButton
             android:id="@+id/new_list_button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@android:color/white"
+            android:background="@color/test_farge"
             android:layout_marginTop="@dimen/small_padding"
             android:padding="@dimen/small_padding"
             android:contentDescription="@string/new_list"
-            android:src="@drawable/ic_new" />
+            android:src="@drawable/ic_baseline1_white" />
 
         <ImageButton
             android:id="@+id/list_button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@android:color/white"
+            android:background="@color/test_farge"
             android:layout_marginTop="@dimen/small_padding"
             android:padding="@dimen/small_padding"
             android:contentDescription="@string/list_text"
-            android:src="@drawable/ic_list" />
+            android:src="@drawable/ic_baseline__white" />
 
-        <ImageButton
-            android:id="@+id/share_button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@android:color/white"
-            android:layout_marginTop="@dimen/small_padding"
-            android:padding="@dimen/small_padding"
-            android:contentDescription="@string/share_text"
-            android:src="@drawable/ic_share" />
 
 
     </LinearLayout>

@@ -11,4 +11,31 @@
     <string name="list_text">Mine lister</string>
     <string name="new_list">Ny liste</string>
     <string name="share_text">Del liste</string>
+
+    <string name="frukt_og_gront"> - Frukt og Grønt: </string>
+    <string name="frukt_example">  - Salat \n - Løk \n - Agurk \n -Tomater \n -Avocado  </string>
+
+    <string name="Kjølevarer"> - Kjølevarer: </string>
+    <string name="Kjølevarer_example"> - Karbonadedeig x2</string>
+
+    <string name="krydder"> - Krydder og hermetikk: </string>
+    <string name="krydder_example"> - Tacokrydder </string>
+
+    <string name="meieriproduker"> - Meieriprodukter: </string>
+    <string name="meieriprodukter_example"> - revet ost \n </string>
+
+    <string name="bakevarer"> + Bakevarer: </string>
+
+    <string name="ferskvarer"> + Ferskvarer: </string>
+
+    <string name="alkohol_og_tobakk"> + Alkohol og tobakk:</string>
+
+    <string name="annet"> + Annet:</string>
+    <string name="tacofredag">Tacofredag</string>
+    <string name="taco_fredag">Tacofredag</string>
+    <string name="camping_list">Camping</string>
+    <string name="hytte_list">Hytta</string>
+    <string name="strand_list">Stranda</string>
+    <string name="jul._list">Juleaften</string>
+
 </resources>

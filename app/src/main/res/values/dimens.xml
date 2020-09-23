@@ -7,4 +7,5 @@
     <dimen name="layout_margin">8dp</dimen>
     <dimen name="smallX_margin">3dp</dimen>
     <dimen name="padding_4">4</dimen>
+    <dimen name="big_paddingX">64dp</dimen>
 </resources>

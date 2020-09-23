@@ -27,5 +27,10 @@ class SecondActivity: AppCompatActivity() {
         home_button2.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
         }
+
+        //Navigate button to
+        taco_button.setOnClickListener {
+            startActivity(Intent(this, ThirdActivity::class.java))
+        }
     }
 }
