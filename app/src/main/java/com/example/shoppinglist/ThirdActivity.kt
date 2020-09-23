@@ -14,10 +14,18 @@ class ThirdActivity: AppCompatActivity() {
         setContentView(R.layout.activity_third)
 
         //Navigate button to SecondActivity
-        new_list3.setOnClickListener {
-            startActivity(Intent(this, SecondActivity::class.java))
+        new_list_button3.setOnClickListener {
+            startActivity(Intent(this, com.example.shoppinglist.SecondActivity::class.java))
+        }
 
+        //Navigate button to
+        list_button3.setOnClickListener {
+            startActivity(Intent(this, ThirdActivity::class.java))
+        }
 
+        //Navigate button to
+        home_button3.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
         }
     }
 }
